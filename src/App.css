@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +37,88 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+
+@keyframes App-logo-spin {
+
+    from {
+
+      transform: rotate(0deg);
+
+    }
+    to {
+
+      transform: rotate(360deg);
+    }
+  
+}
+
+body {
+
+  background-color: grey;
+
+}
+
+footer, header {
+
+  background-color: orange;
+
+}
+
+footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.p-menubar .p-menuitem-text {
+
+  line-height: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.p-menubar .p-menuitem {
+
+  position: relative;
+
+}
+.p-menubar {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.p-menubar-button {
+
+
+  display: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.p-menubar ul {
+
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+a, a:link, a:visited, a:hover, a:active {
+
+  color: orange;
+  font-weight: bolder;
+
+}
+
+

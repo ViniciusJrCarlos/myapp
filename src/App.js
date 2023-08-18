@@ -37,7 +37,8 @@ import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import { Menubar } from 'primereact/menubar';
-import { withRouter } from 'react-router-dom';
+//import { withRouter } from 'react-router-dom';
+import {withRouter} from 'react-router';
 import styled from 'styled-components';
 
 
@@ -69,7 +70,7 @@ class App extends Component {
           },
           {
 
-            label:'Contato'
+            label:'Contato',
             command:() => this.props.history.push('/contato')
           }
 

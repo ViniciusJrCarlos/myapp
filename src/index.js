@@ -20,9 +20,10 @@ reportWebVitals();
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+//import * as serviceWorker from './serviceWorker';
+import {BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
 import Home from './pages/home';
 import Sobre from './pages/sobre';
 import Contato from './pages/contato';
@@ -36,11 +37,11 @@ ReactDOM.render(
 
       <Router>
         <App>
-          <Switch>
+          <HashRouter>
             <Route exact path="/" component={Home} />
             <Route path="/sobre" component={Sobre} />
             <Route path="/contato" component={Contato} />
-          </Switch>
+          </HashRouter>
         </App>
       </Router>
 
