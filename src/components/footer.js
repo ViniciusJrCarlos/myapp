@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Rodape = styled.p`
+const Rodape=styled.p`
 
     color: blue;
     font-size: 15px;
